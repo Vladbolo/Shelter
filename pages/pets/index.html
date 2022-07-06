@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
+    <title>Our pets</title>
+</head>
+<body>
+    <header class="header">
+        <a href="../main/index.html" class="logo"><h1 class="logo-name">Cozy House</h1>
+         <p class="logo-description">Shelter for pets in Boston</p>
+     </a>
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="../main/index.html">About the shelter</a></li>
+                <li class="nav-item"><a href="../pets/index.html">Our pets<p class="nav-link active"></p></a></li>
+                <li class="nav-item"><a href="../main/index.html#Hellp">Help the shelter</a></li>
+                <li class="nav-item"><a href="#Contacts">Contacts</a></li>
+            </ul>
+        </nav>
+        <div class="burger-menu">
+            <span class="line-burger"></span>
+            <span class="line-burger"></span>
+            <span class="line-burger"></span>
+        </div>
+        <div class="shadow"></div>
+    </header> 
+    <main class="main">
+        <section class="pets"> 
+            <div class="pets-content">
+                <h3>Our friends who<br> are looking for a house</h3>
+                <div class="card-wrapper">
+                    <div class="card-container">
+                        
+                    </div>
+                </div>
+                <nav class="navigation-arrows">
+                    <button class="pagination-arrow" data-pag="first" disabled>
+                        <svg data-pag="first" width="25" height="11" viewBox="0 0 25 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path data-pag="first" d="M9.94687 10.7852L0.913671 6.08789V4.98438L9.94687 0.287109V1.625L2.43711 5.53125L9.94687 9.44727V10.7852ZM24.018 10.7852L14.9848 6.08789V4.98438L24.018 0.287109V1.625L16.5082 5.53125L24.018 9.44727V10.7852Z"/>
+                        </svg>
+                    </button>
+                    <button class="pagination-arrow" data-pag="back" type="button" disabled>
+                        <svg data-pag="back" width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path data-pag="back" d="M9.98242 10.7852L0.949219 6.08789V4.98438L9.98242 0.287109V1.625L2.47266 5.53125L9.98242 9.44727V10.7852Z"/>
+                        </svg>
+                    </button>
+                    <button class="buttoms-solid" >
+                        <div class="buttoms-text">1</div>
+                    </button>
+                    <button class="pagination-arrow" data-pag="next">
+                        <svg data-pag="next" width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path data-pag="next" d="M9.04102 6.08789L0.0078125 10.7852V9.44727L7.51758 5.53125L0.0078125 1.625V0.287109L9.04102 4.98438V6.08789Z"/>
+                        </svg>
+                    </button>
+                    <button class="pagination-arrow" data-pag="last"> 
+                        <svg data-pag="last" width="25" height="11" viewBox="0 0 25 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path data-pag="last" d="M10.0055 6.08789L0.972265 10.7852V9.44727L8.48203 5.53125L0.972265 1.625V0.287109L10.0055 4.98438V6.08789ZM24.0766 6.08789L15.0434 10.7852V9.44727L22.5531 5.53125L15.0434 1.625V0.287109L24.0766 4.98438V6.08789Z"/>
+                        </svg>
+                    </button>
+                </nav>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="Contacts">
+        <div class="footer-content">
+            <div class="contacts">
+                <h3>For questions and suggestions</h3>
+                <a class="con" href="mailto:email@shelter.com">
+                     <img src="../../assets/icons/mail.svg" alt="Mail" class="icons-svg">
+                     <h4>email@shelter.com</h4>
+                 </a>
+                 <a class="con" href="tel:+13 674 567 75 54">
+                     <img src="../../assets/icons/phone.svg" alt="phone" class="icons-svg">
+                     <h4>+13 674 567 75 54</h4>
+                 </a>
+            </div>
+            <div class="location">
+                     <h3>We are waiting for your visit</h3>
+                 <a class="location-map" href="https://goo.gl/maps/wp2gsK8z8V1cnCVq9">
+                     <img src="../../assets/icons/pin.svg" alt="Location" class="icons-svg">
+                     <h4>1 Central Street, Boston<br> (entrance from the store)</h4>
+                 </a>
+                 <a class="location-map" href="https://goo.gl/maps/wmbVcSfrTNGHc8GT9">
+                     <img src="../../assets/icons/pin.svg" alt="Location" class="icons-svg">
+                     <h4>18 South Park, London</h4>
+                 </a>
+            </div>
+            <img src="../../assets/images/footer-puppy.png" alt="Puppy" class="puppy">
+        </div>
+     </footer>
+     <script src="./script.js"></script>
+</body>
+</html>
